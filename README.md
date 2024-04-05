@@ -12,3 +12,8 @@
 1. [このURL](https://www.icloud.com/shortcuts/d831adcb4121416eab0e9d6973f35d1b)からショートカットを取得する
 2. セットアップ段階でスクリプトのURLを問われるので、先ほど取得したURLを設定する
 3. ショートカットの`...`から詳細を開いて、共有ボタンなどから `ホーム画面に追加` すると簡単に起動できる
+
+# 実装解説
+Google App Script (GAS) に対してHTTPのGETリクエストを送ってるだけ
+
+`https://script.google.com/macros/s/xxxxxxxxxx/exec` の末尾に `?content=AAA&amount=BBB&category=CCC` としてパラメータを渡してる
