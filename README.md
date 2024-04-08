@@ -2,6 +2,8 @@
 
 かんたんに入力できる家計簿ツール
 
+解説?記事: https://hiroyamochi.github.io/posts/shortcuts-money-diary/
+
 # つかいかた
 ## スプレッドシート側
 1. 適当なスプレッドシートを作成し、データ記録用のシートとして `data` という名前のシートをつくる
